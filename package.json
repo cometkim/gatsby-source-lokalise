@@ -1,0 +1,16 @@
+{
+  "name": "gatsby-source-lokalise",
+  "description": "Gatsby plugin to integrate contents on Lokalise",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Hyeseong Kim",
+    "email": "hey@hyeseong.kim"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cometkim/gatsby-source-lokalise.git"
+  },
+  "scripts": {}
+}
