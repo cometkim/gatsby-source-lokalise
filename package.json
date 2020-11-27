@@ -12,5 +12,16 @@
     "type": "git",
     "url": "git+https://github.com/cometkim/gatsby-source-lokalise.git"
   },
-  "scripts": {}
+  "scripts": {
+    "build:babel": "babel src -d . --extensions .ts",
+    "build:dts": "tsc --emitDeclarationOnly"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-typescript": "^7.12.1",
+    "@yarnpkg/pnpify": "^2.3.3",
+    "babel-preset-gatsby-package": "^0.7.0",
+    "typescript": "^4.1.2"
+  }
 }

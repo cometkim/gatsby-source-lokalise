@@ -10,6 +10,11 @@ logs
 !.yarn/sdks
 !.yarn/versions
 
+# Build artifacts
+/*.js
+/*.d.ts
+!/.pnp.js
+
 # Runtime data
 pids
 *.pid
